@@ -128,3 +128,39 @@ footer {
   text-align: center;
   padding: 40px 20px;
 }
+
+/* Contact Form Styling */
+.form-wrapper {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  max-width: 720px;
+  margin: 40px auto 0;
+}
+
+.form-wrapper label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+}
+
+.form-wrapper button {
+  margin-top: 10px;
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
