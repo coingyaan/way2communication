@@ -59,7 +59,31 @@
     Please provide your hiring details below. This helps us understand your requirements clearly and respond faster.
   </p>
 
-  <form action="https://formsubmit.co/info@way2communication.com" method="POST" style="max-width:700px;">
+  <div class="form-wrapper">
+
+  <form action="https://formsubmit.co/info@way2communication.com" method="POST">
+
+    <label>Company Name</label>
+    <input type="text" name="company" required>
+
+    <label>Contact Person</label>
+    <input type="text" name="contact_person" required>
+
+    <label>Business Email</label>
+    <input type="email" name="email" required>
+
+    <label>Hiring Requirement</label>
+    <textarea name="message" rows="6" required></textarea>
+
+    <button type="submit">Submit Hiring Request</button>
+
+    <input type="hidden" name="_subject" value="New IT Hiring Request - Way2Communication">
+    <input type="hidden" name="_captcha" value="false">
+
+  </form>
+
+</div>
+
 
     <label>Company Name</label>
     <input type="text" name="company" required>
